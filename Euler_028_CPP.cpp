@@ -35,5 +35,5 @@ int main()
 // Next corners: 91 - 101 - 111- 121
 
 // FORMULA
-// For odd numbers 3+
+// 1 + For odd numbers 3+
 // n^2 * 4 - (n - 1)*6

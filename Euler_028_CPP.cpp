@@ -2,7 +2,6 @@
 // Started 25 Jan 2022
 // Solved 25 Jan 2022
 
-
 #include <iostream>
 
 using namespace std;
@@ -17,7 +16,6 @@ int main()
     }
     cout << total;
 }
-
 
 // Strategy
 // Observe patter in square

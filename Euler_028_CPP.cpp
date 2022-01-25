@@ -1,5 +1,6 @@
 // Euler_028_CPP.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // Started 25 Jan 2022
+// Solved 25 Jan 2022
 
 
 #include <iostream>
@@ -8,7 +9,13 @@ using namespace std;
 
 int main()
 {
-    
+    int total = 1;
+
+    for (int i = 1; i < 501; i++)
+    {
+        total = total + (pow((2 * i + 1), 2) * 4 - ((2 * i + 1) - 1) * 6);
+    }
+    cout << total;
 }
 
 
